@@ -12,7 +12,6 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter your name:")
 	
-	// The blank identifier _ is used whenever syntax requires a variable name but program logic does not
 	// ReadString() reads until the first occurrence of \n
 	var name, err = reader.ReadString('\n') 
 	if err != nil {
