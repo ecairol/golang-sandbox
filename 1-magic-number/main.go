@@ -9,7 +9,9 @@ import (
 )
 
 func main() {
+	// Only one instance of reader
 	reader := bufio.NewReader(os.Stdin)
+	
 	fmt.Println("Enter your name:")
 	
 	// ReadString() reads until the first occurrence of \n
